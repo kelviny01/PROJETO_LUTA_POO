@@ -1,0 +1,39 @@
+body {
+    background-color: #212121;
+}
+
+strong {
+    color: #fff;
+}
+
+.fightarea {
+    display: flex;
+    gap: 20px;
+}
+
+#char,
+#monster {
+    flex: 1;
+}
+
+.lifebar {
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.lifebar .bar {
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.log {
+    border: 1px dotted #fff;
+    height: 200px;
+    overflow-y: scroll;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
